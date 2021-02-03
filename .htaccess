@@ -1,0 +1,16 @@
+RewriteEngine On
+#RewriteCond %{SERVER_PORT} 80
+#RewriteRule ^(.*)$ https://keshav.great-site.net/$1 [R,L]
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteCond %{REQUEST_URI} !/$
+RewriteRule ^(.*)$ $1\.php
+
+DirectoryIndex Index.php Index.html index.php index.html
+
+ErrorDocument 400 /Errors/400.html
+ErrorDocument 401 /Errors/401.html
+ErrorDocument 403 /Errors/403.html
+ErrorDocument 404 /Errors/404.html
+ErrorDocument 500 /Errors/500.html
+
