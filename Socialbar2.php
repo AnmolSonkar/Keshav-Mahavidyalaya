@@ -1,0 +1,2 @@
+<script type="text/javascript" src="JS/Progressbar.js"></script>
+<div class="row-12" id="Socialbar2" data-aos="fade" data-aos-duration="600"> <a class="btn menu1 MenuButton m-1" id="SidebarButton" href="#" role="button" data-aos="fade"><i class="fa fa-align-left"></i></a> <a href="mailto:principal@keshav.du.ac.in" id="Smail" class="text-white float-right  mr-1 mt-1"><i class="fa fa-envelope mr-2" data-aos="fade"> </i>Email : principal@keshav.du.ac.in</a> </div>
